@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <HTML>
+ <HEAD>
+ <TITLE>Customer Information</TITLE>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<SCRIPT>
+<!-- This is JavaScript -->
+	function validateForm() {
+  var x = document.forms["myForm"]["firstname"].value;
+  if (x == "") {
+    alert("First name, last name, and email must be filled out");
+    return false;
+  }
+}
+</SCRIPT>
+ </HEAD>
+ <BODY>
+	<H1>Customer Information</H1>
+<!-- This is the form and line 21 validates the user input -->
+<form name="myForm" onsubmit="return validateForm()" method="post">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br>
+  Email:<br>
+  <input type="text" name="email" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</BODY>
+</HTML>

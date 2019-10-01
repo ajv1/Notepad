@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <HTML>
+ <HEAD>
+ <TITLE>Customer Information</TITLE>
+ <link rel="stylesheet" type="text/css" href="styleHTML.css">
+ </HEAD>
+ <BODY>
+	<!-- This is a comment -->
+	<H1>Customer Information</H1>
+	<form>
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="">
+  <br>
+  Email:<br>
+  <input type="text" name="email" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</BODY>
+</HTML>
